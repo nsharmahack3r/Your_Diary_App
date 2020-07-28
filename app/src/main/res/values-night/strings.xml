@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Your Note</string>
+    <string name="title_main">Your\nNote</string>
+    <string name="title_1">Your Privacy is Our priority.</string>
+    <string name="title_2">Custom Password</string>
+    <string name="title_3">Neat and Clean</string>
+    <string name="title_4">Let’s Go!</string>
+
+    <string name="content_1">All your data is encrypted Before saving.</string>
+    <string name="content_2">Secure your records with custom passwords to secure locally.</string>
+    <string name="content_3">Easy and simple Interface. No Fancy Features. Only what counts.</string>
+    <string name="content_4">Write your first entry!</string>
+    <string name="tronpc"><![CDATA[</tronpc>]]></string>
+    <string name="sample">Lorem ipsum dolor sit amet, consectetur
+adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna
+aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi.</string>
+</resources>

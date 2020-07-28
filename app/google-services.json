@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "401892058509",
+    "firebase_url": "https://your-dairy.firebaseio.com",
+    "project_id": "your-dairy",
+    "storage_bucket": "your-dairy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401892058509:android:3928346affc095496849c4",
+        "android_client_info": {
+          "package_name": "com.tronpc.yourdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401892058509-rp1cl6u6prfigtiok08p0krlmnrkocas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjHI_xlhQdeGghv3jD-hTdYp4YCJe520M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401892058509-rp1cl6u6prfigtiok08p0krlmnrkocas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/green"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/settingsActivityRibbon"
+        android:layout_width="60dp"
+        android:layout_height="180dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/ribbon_dark_green_small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:elevation="24dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="#fff"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:text="Settings"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginStart="60dp"
+                    android:id="@+id/settings_profile"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@color/green_dark"
+                    app:civ_border_color="@color/green_dark"
+                    app:civ_border_width="5dp"
+                    android:transitionName="profile_img"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/settingsUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Your \nNote"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/dots" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:elevation="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/noteLockButton"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_background_settings"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Note Lock"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/security_status"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/security_enabled" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:elevation="20dp"
+            android:id="@+id/accountButton"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_background_settings"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/profile_type"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_account_box_24" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
